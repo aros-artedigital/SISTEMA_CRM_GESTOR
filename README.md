@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="logo-crm-gestor-escuro.png">
-    <img src="logo-crm-gestor.png" alt="CRM GESTOR" width="130">
+    <img src="logo_fundo_claro.webp" alt="CRM GESTOR" width="130">
   </picture>
 </p>
 
