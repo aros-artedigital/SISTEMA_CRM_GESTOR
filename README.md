@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<h1 align="center">CRM GESTOR</h1>
+<h1 align="center"></h1>
 
 <p align="center">
   Sistema de gestão para pequenas lojas: vendas, caixa, estoque, clientes e financeiro<br>
