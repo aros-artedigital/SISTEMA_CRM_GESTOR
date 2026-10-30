@@ -1,0 +1,65 @@
+CRM GESTOR — INSTALAR E ATUALIZAR
+==================================
+
+O QUE PRECISA
+  Windows 10 ou 11 (64 bits). Nada mais: o programa que faz o sistema
+  funcionar (Python) já vem junto. Navegador: Chrome (recomendado) ou Edge.
+
+INSTALAR (uma vez, no computador principal da loja)
+  1. Clique com o botão direito no arquivo .zip e escolha
+     "Extrair tudo...". Não rode de dentro do .zip.
+  2. Na pasta extraída, dois cliques em "Instalar CRM GESTOR.bat".
+  3. Ele copia o sistema para C:\CRM GESTOR\sistema, cria a pasta dos
+     dados (C:\CRM GESTOR\dados), põe o atalho "CRM GESTOR" na Área de
+     Trabalho e no menu Iniciar e abre o sistema.
+  4. Se ele perguntar se celulares e outros computadores vão usar o
+     sistema, responda S: o Windows pede permissão de administrador para
+     liberar a rede da loja no firewall.
+  5. Na primeira abertura, crie o administrador e siga o assistente de
+     configuração (empresa, formas de pagamento, cupom).
+  Depois disso a pasta extraída pode ser apagada.
+
+LICENÇA
+  A instalação nova funciona 15 dias sem chave. Para receber a chave,
+  mande ao fornecedor o CÓDIGO DA INSTALAÇÃO: no sistema, menu da conta
+  (▾) > Sobre o CRM GESTOR > Licença. A chave chega por mensagem; o
+  administrador cola ali e clica em Ativar a licença. Perto de vencer,
+  uma faixa avisa; vencida, há 7 dias de carência e depois o sistema
+  fica só para consulta até ativar a chave nova (os dados não se perdem).
+
+USAR NO DIA A DIA
+  Dois cliques no atalho "CRM GESTOR". Uma janela preta minimizada é o
+  servidor: deixe aberta enquanto usa. Celular e outro computador abrem
+  pelo endereço que aparece nela (veja a Ajuda > Rede da loja).
+
+ATUALIZAR
+  1. Extraia o .zip da versão nova (como no passo 1 acima).
+  2. Feche o sistema no navegador dos aparelhos.
+  3. Dois cliques em "Atualizar CRM GESTOR.bat" (o da versão NOVA).
+  Ele faz uma cópia de segurança dos dados, troca a versão, confere se o
+  sistema abriu certo e, se algo der errado, volta sozinho para a versão
+  anterior e para a cópia dos dados. Os dados não se perdem.
+  Para voltar à versão anterior depois, por qualquer motivo:
+    Atualizar CRM GESTOR.bat --voltar
+
+DESINSTALAR
+  Dois cliques em "Desinstalar CRM GESTOR.bat", na pasta C:\CRM GESTOR\sistema.
+  Ele pede permissão de administrador e pergunta antes de cada passo que
+  não tem volta: encerra o servidor, tira os atalhos e a regra do firewall,
+  pergunta o que fazer com os dados (manter, copiar para a Área de Trabalho
+  e apagar, ou apagar sem cópia) e apaga a pasta do sistema.
+  Não apaga a pasta do fornecedor nem as empresas extras (só avisa).
+  Antes, guarde uma cópia dos dados se for usá-los depois. Depois, limpe os
+  dados do site localhost:4590 no navegador.
+
+ALGO NÃO FUNCIONA?
+  Dois cliques em "Diagnostico do CRM GESTOR.bat" (na pasta
+  C:\CRM GESTOR\sistema). Ele confere tudo, explica o que fazer e grava
+  um relatório na Área de Trabalho para mandar ao suporte. O contato do
+  suporte está no sistema: Ajuda > Suporte.
+
+ONDE FICAM AS COISAS
+  C:\CRM GESTOR\sistema               o sistema (trocado nas atualizações)
+  C:\CRM GESTOR\dados                 os dados da empresa — NÃO apague
+  C:\CRM GESTOR\dados\backups         cópia diária automática
+  C:\CRM GESTOR\versoes_anteriores    as 3 últimas versões, para voltar
