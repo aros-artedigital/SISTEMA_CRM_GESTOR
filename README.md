@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="logo-crm-gestor-escuro.png">
+    <source media="(prefers-color-scheme: dark)" srcset="logo_fundo_claro.webp">
     <img src="logo_fundo_claro.webp" alt="CRM GESTOR" width="130">
   </picture>
 </p>
